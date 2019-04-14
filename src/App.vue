@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <img alt="Noisy birds" src="./assets/birds.svg" width="100" />
     <HelloWorld msg="Twitter Follow Stats" />
   </div>
 </template>
@@ -26,5 +26,10 @@ $color-text-default: #2c3e50;
   -moz-osx-font-smoothing: grayscale;
   margin-top: 60px;
   text-align: center;
+
+  img {
+    max-width: 500px;
+    width: 33vw;
+  }
 }
 </style>
