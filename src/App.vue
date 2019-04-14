@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class=".app">
+  <div id="app" class="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HelloWorld msg="Twitter Follow Stats" />
   </div>
 </template>
 
@@ -17,8 +17,10 @@ export default {
 </script>
 
 <style lang="scss">
+$color-text-default: #2c3e50;
+
 .app {
-  color: #2c3e50;
+  color: $color-text-default;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
