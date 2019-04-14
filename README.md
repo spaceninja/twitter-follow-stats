@@ -1,5 +1,9 @@
 # twitter-follow-stats
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64285fe1-2aa9-41cb-9ff0-436faf1ab6df/deploy-status)](https://app.netlify.com/sites/twitter-follow-stats/deploys)
+
+> Helps you figure out the noisiest people you follow
+
 ## Project setup
 ```
 npm install
