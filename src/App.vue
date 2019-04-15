@@ -1,17 +1,20 @@
 <template>
   <div id="app" class="app">
-    <img alt="Noisy birds" src="./assets/birds.svg" width="100" />
-    <HelloWorld msg="Twitter Follow Stats" />
+    <Home />
+    <hr />
+    <Results />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Home from './components/Home.vue';
+import Results from './components/Results.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    Home,
+    Results,
   },
 };
 </script>
@@ -26,10 +29,5 @@ $color-text-default: #2c3e50;
   -moz-osx-font-smoothing: grayscale;
   margin-top: 60px;
   text-align: center;
-
-  img {
-    max-width: 500px;
-    width: 33vw;
-  }
 }
 </style>
