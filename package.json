@@ -10,7 +10,7 @@
     "fix:css": "stylelint --fix '**/*.{css,vue}'"
   },
   "dependencies": {
-    "core-js": "2.6.12",
+    "core-js": "3.17.3",
     "vue": "2.6.14"
   },
   "devDependencies": {
