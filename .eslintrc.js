@@ -1,14 +1,17 @@
 module.exports = {
-  root: true,
   env: {
     node: true,
   },
-  extends: ['plugin:vue/essential', '@vue/airbnb', '@vue/prettier'],
+  extends: ['eslint:recommended', 'plugin:vue/vue3-recommended', 'prettier'],
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // override/add rules settings here, such as:
+    // 'vue/no-unused-vars': 'error'
   },
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
+  overrides: [
+    {
+      // HACK: https://github.com/vuejs/eslint-plugin-vue/issues/1355
+      files: ['**/*.html'],
+      rules: { 'vue/comment-directive': 'off' },
+    },
+  ],
 };

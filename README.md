@@ -4,39 +4,12 @@
 
 Inspired by [Unladen Follow](https://github.com/apike/Unladen-Follow)
 
-## Project setup
+## Project scripts
 
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Run your tests
-
-```
-npm run test
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- `npm ci` - install dependencies
+- `npm run dev` - compiles and hot-reloads for development
+- `npm run build` - compiles and minifies for production
+- `npm run lint` - lints and fixes files
 
 ---
 
