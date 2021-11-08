@@ -22,7 +22,7 @@
 import UserRow from './UserRow.vue';
 
 export default {
-  name: 'Results',
+  name: 'AppResults',
   components: {
     UserRow,
   },
