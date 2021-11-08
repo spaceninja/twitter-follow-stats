@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 .at {
-  opacity: 0.25;
+  opacity: 25%;
 }
 td {
   text-align: left;
