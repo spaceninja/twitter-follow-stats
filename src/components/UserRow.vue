@@ -21,6 +21,7 @@ export default {
 .at {
   opacity: 25%;
 }
+
 td {
   text-align: left;
 
