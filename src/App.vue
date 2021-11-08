@@ -1,17 +1,17 @@
 <template>
-  <Home />
+  <AppHome />
   <hr />
-  <Results />
+  <AppResults />
 </template>
 
 <script>
-import Home from './components/Home.vue';
-import Results from './components/Results.vue';
+import AppHome from './components/AppHome.vue';
+import AppResults from './components/AppResults.vue';
 
 export default {
   components: {
-    Home,
-    Results,
+    AppHome,
+    AppResults,
   },
 };
 </script>
