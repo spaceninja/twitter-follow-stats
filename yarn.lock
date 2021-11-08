@@ -1703,7 +1703,7 @@ pify@^3.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
   integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
 
-postcss-html@^1.2.0:
+postcss-html@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/postcss-html/-/postcss-html-1.2.0.tgz#f496939dc9ca7b774326125b4c7038db13d04900"
   integrity sha512-DEuVLHIf8wwqJtLAVGj0ol00PJFB9byPDZF+p56CAC5ktdlF9lFzLdhqbPxBza/jpBYwn17+fGeqvXxYh+h+CQ==
@@ -2118,7 +2118,7 @@ stylelint-config-recommended-scss@^5.0.0:
     stylelint-config-recommended "^6.0.0"
     stylelint-scss "^4.0.0"
 
-stylelint-config-recommended-vue@^1.0.0:
+stylelint-config-recommended-vue@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended-vue/-/stylelint-config-recommended-vue-1.0.0.tgz#5cd2f7190cdcdb7c006204d34e7d5e96bb4515be"
   integrity sha512-F1lq75ZcMr+wfn2QaqJ52A75nJqLktWqEmRc/ZTjhhk+/XaSoZxTHf7SeT/tdE/Bhe+TuJxqM6cxZS/zRyM1bQ==
