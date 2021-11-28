@@ -30,7 +30,7 @@
     "sass": "1.43.5",
     "stylelint": "14.1.0",
     "stylelint-config-prettier": "9.0.3",
-    "stylelint-config-recommended-vue": "1.0.0",
+    "stylelint-config-recommended-vue": "1.1.0",
     "stylelint-config-spaceninja": "9.0.1",
     "vite": "2.6.14"
   }
