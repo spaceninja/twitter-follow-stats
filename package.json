@@ -16,11 +16,11 @@
     "lint:prettier:check": "prettier . --check"
   },
   "dependencies": {
-    "vue": "3.2.24"
+    "vue": "3.2.26"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "1.10.2",
-    "@vue/compiler-sfc": "3.2.24",
+    "@vue/compiler-sfc": "3.2.26",
     "eslint": "8.4.1",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-vue": "8.2.0",
