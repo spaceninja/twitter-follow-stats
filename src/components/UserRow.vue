@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 .at {
-  opacity: 25%;
+  opacity: 0.25;
 }
 
 td {
